@@ -1,0 +1,102 @@
+﻿:root{
+	--color-1: #f0f8ff;
+	--color-2: #00008b;
+	--color-3: #dc143c;
+}
+
+body {
+	font-size: 11pt;
+	background-image: url(/1_Dobokocka/img/bg.png);
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+	color: var(--color-2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+a, a:active, a:hover, a:visited, a:focus{
+	color: var(--color-3);
+}
+.container{
+	width: 930px;
+	background-color: var(--color-1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: none;
+	padding: 0 5px;
+}
+.conti2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+p{
+	
+}
+
+p.bev{
+	font-size: small;
+	font-style: italic;
+}
+
+
+hr {
+	
+}
+
+h1, h2 {
+	color: var(--color-3);
+	padding: 5px;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+#tartalom {
+	
+	margin: 0 auto 0 auto;
+	text-align: left;
+	
+}
+
+#oszlop1, #oszlop2, #oszlop3 {
+    float: left;
+    padding: 0px;
+	text-align: justify;
+	padding: 0 5px;
+}
+
+.kep {
+	border: none;
+	width: 240px;
+	margin-left: 30px;
+}
+
+a:link {
+	color: var(--color-3);
+}
+
+#lablec {
+    clear: both;
+	width: 100%;
+    text-align: left;
+
+
+}
+span{
+	width: 80%;
+	height: 2px;
+	background: var(--color-3);
+	margin-left:  auto;
+	margin-right: auto;
+	display: block;
+	
+	
+
+}
